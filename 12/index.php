@@ -152,3 +152,4 @@ echo '<hr>' . 'Определение гендерного состава:' . '<
 print_r(getGenderDescription($example_persons_array));
 echo '<hr>' . 'Идеальный подбор пары:' . '<br>';
 print_r(getPerfectPartner('Иванов', 'Иван', 'Иванович', $example_persons_array));
+?>
